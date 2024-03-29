@@ -65,7 +65,7 @@ ani = animation.FuncAnimation(fig, animate_above, frames=range(0,frame_count))
 writer = FFMpegWriter(fps=20, metadata=dict(artist='Me'), bitrate=1800)
 ani.save('movie.mp4', writer=writer)
 
-plt.show()
+#plt.show()
 
 
 
